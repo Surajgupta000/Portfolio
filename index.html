@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0441ac15de.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/onlinelogomaker-032723-2222-7611.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#port">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext">
+          <p>Front-end Developer</p>
+          <h1>Hi, I'm <span>Suraj</span> <br />Web Developer</h1>
+        </div>
+      </div>
+    </div>
+    <!-------------------about--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/IMG20230314213143.jpg" alt="" srcset="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tit">About <span>Me</span></h1>
+            <p>
+              - A detail-oriented and multitasking guy with coding techniques
+              having a bachelor of engineering degree in computer science
+              technology. <br /><br />- knowledge of primary development
+              languages of C, C++, JAVA, and also Front-end Development using
+              HTML, CSS, Javascript.<br /><br />
+              - Good at presenting and making people understand.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tabcont active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Front-end Developer</li>
+                <li>
+                  <span>Data Structure & Algorithm</span><br />500+ Score in
+                  GFG.
+                </li>
+                <li><span>Problem Solver</span><br /></li>
+              </ul>
+            </div>
+            <div class="tabcont" id="experience">
+              <ul>
+                <li><span>jUNE-2020</span><br />Recreation Hub Website</li>
+                <li><span>JUNE-2022</span><br />Music player Website</li>
+                <li><span> MARCH-2023</span><br />Portfolio</li>
+              </ul>
+            </div>
+            <div class="tabcont" id="education">
+              <ul>
+                <li><span>2021-24</span><br />BTech in Computre Science</li>
+                <li>
+                  <span>2018-21</span><br />Diploma in Computer Science with
+                  8.37 SGPA
+                </li>
+                <li>
+                  <span>2018</span><br />Matriculation with 74% Percentile
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------services-->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="servicelist">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Developing Websites which are intresting , intracting and awesome
+              while looking at them. With my latest project, i received
+              top-quality work, enjoyed working with good Developing skills, and
+              when i threw curve balls or suggested unique functionality, they
+              quickly went to work to make it a reality.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Web Designer</h2>
+            <p>
+              Client-focused, customer-centric, creating website solutions that
+              deliver tangible business results, I helps brands the
+              ever-changing digital landscape.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Front-end Development</h2>
+            <p>
+              Provides web application development and web design services to my
+              clients. Vast knowledge of website design and development
+              services, from creating mobile web development solutions and
+              responsive website designs, to building custom e-commerce and
+              intranet experiences using the latest and proven web technologies.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------portfolio-->
+    <div id="port">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="img/work-1.png" />
+            <div class="layer">
+              <h3>Recreation Hub Website</h3>
+              <p>
+                A website that provides a recreation platform where one can play
+                games, watch videos of their choice, listen to their favourite
+                music, and more. This whole project was developed Using HTML,
+                CSS, JAVASCRIPT and BOOTSRAP using the VISUAL STUDIO platform.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work-2.png" />
+            <div class="layer">
+              <h3>Music Player</h3>
+              <p>
+                It is a Training Project where one can listen to available music
+                collection with an interactive Front-end view. This project was
+                made by HTML, CSS and basics JAVA-SCRIPT using the platform
+                VISUAL STUDIO.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work-3.png" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>Where anyone can know about me and my work.</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!---------contact------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contactleft">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> sooraj4475@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 8651576301</p>
+            <div class="socialicons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100012939960395&mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://instagram.com/surajgupta409?igshid=ZDdkNTZiNTM="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/suraj-kumar-4919a51b3"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="img/suraj kumar(resume).pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contactright">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> suraj kumar.</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcont = document.getElementsByClassName("tabcont");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcont) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzOm8Xku7qug8ESjMKZU-u4PpsXZ9eLS4VSsiafi4rd59nlv7KdTRhNZtrQfaV3l44/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
